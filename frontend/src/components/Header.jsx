@@ -11,8 +11,11 @@ export default function Header() {
           </Link>
           
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              특징
+            <Link href="/dashboard" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              대시보드
+            </Link>
+            <Link href="/pos" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              포스
             </Link>
             <Link href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               가격
