@@ -146,3 +146,14 @@ body {
     animation-delay: var(--float-delay);
   }
 }
+
+html {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+body[data-scroll-locked] {
+  min-width: 100%;
+}
+
+

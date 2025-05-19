@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="font-bold text-lg">aisle</h3>
+            <h3 className="font-bold text-lg">aisla</h3>
             <p className="text-sm text-muted-foreground">
               AI 기반 편의점 수요 예측 서비스로<br />
               더 스마트한 리테일의 미래를 만듭니다.
@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} aisle. All rights reserved.
+          &copy; {new Date().getFullYear()} aisla. All rights reserved.
         </div>
       </div>
     </footer>
